@@ -9,8 +9,8 @@ function renderTodo(){
     list.innerHTML = '';
     for (let i = 0; i < todo.length; i++) {
         list.innerHTML += `<li>${todo[i]}
-        <button class="del-button" onclick="deleteTodo(${i})"><i class="fa-solid fa-trash-can"></i></button>
-        <button class="del-button" onclick="editTodo(${i})"><i class="fa-solid fa-pen"></i></button>
+        <button class="button" onclick="deleteTodo(${i})"><i class="fa-solid fa-trash-can"></i></button>
+        <button class="button" onclick="editTodo(${i})"><i class="fa-solid fa-pen"></i></button>
         </li>`
      
     }

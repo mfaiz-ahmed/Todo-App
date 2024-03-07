@@ -8,6 +8,8 @@ html{font-size: 62.5%;}
 background-color: #2361cc;}
 
 
+/* list styling */
+
 li{list-style: none;
 font-size: 2rem;
 width: 400px;
@@ -18,11 +20,16 @@ background-color: #c5e1e5;
 padding: 10px 20px;
 margin-top: 10px;}
 
+/* heading styling */
+
 .heading{font-size: 6rem;
     text-align: center;
 color: white;
 margin-top: 20px;
 }
+
+
+/* box styling */
 
 .box{background-color: white;
 text-align: center;
@@ -34,6 +41,9 @@ padding: 25px 20px;
 border-radius: 10px;}
 
 
+
+/* input styling */
+
 #todo-input{font-size: 2rem;
 padding: 10px 20px;
 border-radius: 10px;
@@ -42,6 +52,9 @@ margin: 0 auto;}
 
 #todo-input:focus{border: 2px solid #2361cc;
 outline: none;}
+
+
+/* button styling */
 
 .add-button{background-color: #2c6bec;
 padding: 10px 20px;
@@ -53,7 +66,7 @@ border-radius: 10px;}
 .add-button:hover{background-color: #2361cc;}
 
 
-.del-button{font-size: 2rem;
+.button{font-size: 2rem;
 padding: 10px 20px;
 background-color: #1c1ca0;
 color: white;
@@ -62,4 +75,4 @@ border: 0;
 border-radius: 10px;}
 
 
-.del-button:hover{background-color: #1616c1;}
+.button:hover{background-color: #1616c1;}
