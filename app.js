@@ -30,15 +30,25 @@ function addTodo(){
 // Delete Todo
 
 function deleteTodo(index){
-    console.log('todo deleted' , index);
+    console.log('Todo Deleted' , index);
     todo.splice(index , 1);
     renderTodo()
 
 }
 
+// Edit Todo
+
 function editTodo(index){
-    console.log('todo edited' , index);
+    console.log('Todo Edited' , index);
     const editedTodo = prompt('Edit your task here' , todo[index])
     todo.splice(index , 1 , editedTodo)
     renderTodo()
+}
+
+// Delete All
+
+function deleteAll(index){
+console.log('All todo Deleted');
+todo.splice(index)
+renderTodo()
 }
